@@ -1,6 +1,6 @@
 const inputEl = document.querySelector("#myInput");
 const buttonEl = document.querySelector("#myButton");
-buttonEl.value = inputEl.textContent;
+buttonEl.textContent = inputEl.value;
 
 const imageLink1El = document.querySelector("[src='./img/photo1.jpg']");
 imageLink1El.src = "./img/img3.avif";
